@@ -45,4 +45,4 @@ object Run : BuildType({
             """.trimIndent()
         }
     }
- }
+ })
