@@ -6,7 +6,6 @@ version = "2023.11"
 
 project {
     buildType(Run)
-    vcsRoot(DslContext.settingsRoot)
     params {
         text("env.TASK_ID", "", display = ParameterDisplay.PROMPT, allowEmpty = true)
         password("env.TASK_API_KEY", "")
