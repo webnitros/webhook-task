@@ -9,7 +9,10 @@ $siteUrl = $argv[5];
 $comment = $argv[6];
 
 $comment = trim($comment);
-$message = "{$comment}. \n\nСсылка на сайт для просмотра: $siteUrl";
+$message = "{$comment}.";
+if (!empty($siteUrl)) {
+    $message .= "\n\nСсылка на сайт для просмотра: $siteUrl";
+}
 
 $url = $WEBHOOK;
 $data = array(
