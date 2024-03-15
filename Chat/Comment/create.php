@@ -9,7 +9,7 @@ $siteUrl = $argv[5];
 $comment = $argv[6];
 
 $comment = trim($comment);
-$message = "{$comment}.";
+$message = "{$comment}";
 if (!empty($siteUrl)) {
     $message .= "\n\nСсылка на сайт для просмотра: $siteUrl";
 }
