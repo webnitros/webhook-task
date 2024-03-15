@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 <project>
   <modelVersion>4.0.0</modelVersion>
-  <name>databus Config DSL Script</name>
-  <groupId>databus</groupId>
-  <artifactId>databus_dsl</artifactId>
+  <name>webhook_task Config DSL Script</name>
+  <groupId>webhook_task</groupId>
+  <artifactId>webhook_task_dsl</artifactId>
   <version>1.0-SNAPSHOT</version>
 
   <parent>
@@ -16,13 +16,6 @@
     <repository>
       <id>jetbrains-all</id>
       <url>https://download.jetbrains.com/teamcity-repository</url>
-      <snapshots>
-        <enabled>true</enabled>
-      </snapshots>
-    </repository>
-    <repository>
-      <id>teamcity-server</id>
-      <url>https://tc.fandeco.org/app/dsl-plugins-repository</url>
       <snapshots>
         <enabled>true</enabled>
       </snapshots>

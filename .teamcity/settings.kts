@@ -12,8 +12,4 @@ version = "2023.11"
 
 project {
     val projectName: String = DslContext.projectId.value.toLowerCase().substringAfter('_')
-    params {
-        param("env.MINIO_PREFIX", "$projectName.plan")
-        param("env.SWARM_PREFIX", "$projectName")
-    }
 }
