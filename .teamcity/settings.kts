@@ -27,14 +27,14 @@ project {
 
 
 object Run : BuildType({
-   name = "Run"
-   vcs {
+    name = "Run"
+    vcs {
        root(DslContext.settingsRoot)
-   }
+    }
 
     steps {
         script {
-            id = "simpleRunner"
+            id = "WebhookTaskRunner"
             scriptContent = """
                 #!/bin/bash
 
@@ -51,3 +51,4 @@ object Run : BuildType({
             """.trimIndent()
         }
     }
+ }
