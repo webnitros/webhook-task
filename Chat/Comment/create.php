@@ -1,7 +1,5 @@
 <?php
 
-$email = '';
-
 $API_KEY = $argv[1];
 $WEBHOOK = $argv[2];
 $userEmail = $argv[3];
