@@ -8,6 +8,7 @@ $taskId = $argv[4];
 $siteUrl = $argv[5];
 $comment = $argv[6];
 
+$comment = trim($comment);
 $message = "{$comment}. \n\nСсылка на сайт для просмотра: $siteUrl";
 
 $url = $WEBHOOK;
