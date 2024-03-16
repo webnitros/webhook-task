@@ -1,6 +1,6 @@
 <?php
 
-# аргументы 3
+# аргументы 34
 $API_KEY = $argv[1];
 $WEBHOOK = $argv[2];
 $userEmail = $argv[3];
